@@ -1,7 +1,13 @@
 # WhatsApp Web Clone
 
-i will put some features there
+This is a clone of the Whatsapp web version. Using all the power React have to offer :)
 
-## Dark Mode
+Just click on the button and BOOM, it's all dark.
 
-soon i will implemnt dark mode
+## Light Mode 🤖
+
+![](/src/gitImages/zappGit.PNG)
+
+## Dark Mode 👾
+
+![](/src/gitImages/zappDarkGit.PNG)
