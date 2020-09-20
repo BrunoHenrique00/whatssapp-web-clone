@@ -7,22 +7,32 @@ import ListLeft from './ListLeft'
 const useStyles = makeStyles({
     root: {
         padding: "0em 15em",
-        marginTop: -100,
-        zIndex: 999,
-        position: "absolute"
+        marginTop: -90,
+        zIndex: 9,
+        position: "absolute",
+          
+      },
+      rootDark:{
+        padding: "0em 15em",
+        marginTop: -90,
+        zIndex: 9,
+        position: "absolute",
+        background: '#161616',
       },
       card: {
         display: "flex",
-        height: "46em"
+        height: "46em",
+        zIndex: 999,
+        marginBottom: '199px'
       },
 });
 
-export default function Chat() {
+export default function Chat({isDark}) {
     const classes = useStyles()
   
     return (
         <>
-        <Grid container className={classes.root}>
+        <Grid container className={isDark ? classes.rootDark : classes.root}>
             <Grid item xs={12}>
                 <Card className={classes.card}>
                     <Grid container>

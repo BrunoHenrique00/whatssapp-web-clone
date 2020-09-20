@@ -8,7 +8,7 @@ const useStyles = makeStyles({
       },
       rightContainer: {
         background:
-          "url(https://hdwallsource.com/img/2014/8/my-neighbor-totoro-wallpaper-27981-28703-hd-wallpapers.jpg) center center",
+          "url(https://images.unsplash.com/photo-1548113616-32c0de183d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMzk2fQ&auto=format&fit=crop&w=1351&q=80) center center",
         flex: 1
       },
       heightAdjust: {
