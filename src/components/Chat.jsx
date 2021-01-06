@@ -6,14 +6,14 @@ import ListLeft from './ListLeft'
 
 const useStyles = makeStyles({
     root: {
-        padding: "0em 15em",
+        padding: "0em 8em",
         marginTop: -90,
         zIndex: 9,
         position: "absolute",
           
       },
       rootDark:{
-        padding: "0em 15em",
+        padding: "0em 8em",
         marginTop: -90,
         zIndex: 9,
         position: "absolute",
